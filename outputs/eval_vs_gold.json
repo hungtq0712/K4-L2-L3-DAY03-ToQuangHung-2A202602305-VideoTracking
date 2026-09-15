@@ -7,36 +7,36 @@
   "pred_label": "PRED annotations\\clip_01\\gt.txt",
   "gt_label": "GT   gold\\clip_01\\gt.txt",
   "metrics": {
-    "HOTA": 0.8568,
-    "DetA": 0.8456,
-    "AssA": 0.8691,
-    "LocA": 0.8948,
-    "IDF1": 0.9748,
-    "IDTP": 562,
-    "IDFP": 18,
-    "IDFN": 11,
-    "MOTA": 0.9494,
-    "MOTP": 0.8864,
+    "HOTA": 0.8681,
+    "DetA": 0.8589,
+    "AssA": 0.8782,
+    "LocA": 0.8975,
+    "IDF1": 0.987,
+    "IDTP": 569,
+    "IDFP": 11,
+    "IDFN": 4,
+    "MOTA": 0.9738,
+    "MOTP": 0.8879,
     "IDSW": 0,
-    "FP": 18,
-    "FN": 11,
+    "FP": 11,
+    "FN": 4,
     "GT_boxes": 573,
     "PRED_boxes": 580
   },
   "gate": {
     "checks": {
       "IDF1": {
-        "value": 0.9748482220294883,
+        "value": 0.986990459670425,
         "required": 0.8,
         "passed": true
       },
       "MOTA": {
-        "value": 0.9493891797556719,
+        "value": 0.9738219895287958,
         "required": 0.75,
         "passed": true
       },
       "MOTP": {
-        "value": 0.8863785920521909,
+        "value": 0.8879287062860763,
         "required": 0.7,
         "passed": true
       }
@@ -51,40 +51,10 @@
     "id_switches": [],
     "loose_boxes": [
       {
-        "frame": 84,
+        "frame": 80,
         "gt_track": 5,
         "pred_track": 5,
-        "iou": 0.503
-      },
-      {
-        "frame": 83,
-        "gt_track": 5,
-        "pred_track": 5,
-        "iou": 0.505
-      },
-      {
-        "frame": 107,
-        "gt_track": 6,
-        "pred_track": 6,
-        "iou": 0.507
-      },
-      {
-        "frame": 85,
-        "gt_track": 5,
-        "pred_track": 5,
-        "iou": 0.573
-      },
-      {
-        "frame": 113,
-        "gt_track": 6,
-        "pred_track": 6,
-        "iou": 0.576
-      },
-      {
-        "frame": 112,
-        "gt_track": 6,
-        "pred_track": 6,
-        "iou": 0.582
+        "iou": 0.558
       }
     ],
     "n_gt_tracks": 8,
